@@ -1,1 +1,8 @@
-CS.UnityEngine.GameObject.Find("/UICamera"):SetActive(not CS.UnityEngine.GameObject.Find("/UICamera").activeSelf)
+function Update()
+    if CS.UnityEngine.GameObject.Find("/UICamera"):GetComponent("Camera").enabled == true then
+        CS.UnityEngine.GameObject.Find("/UICamera"):GetComponent("Camera").enabled = false
+    else
+        CS.UnityEngine.GameObject.Find("/UICamera"):GetComponent("Camera").enabled = true
+    end
+  end
+Update()
