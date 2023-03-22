@@ -24,3 +24,5 @@ Some scripts for some RCE framework in some gacha game
     * Unlocks current game FPS
 * texchanger
     * Changes the texture on current avatar, you can change location to find png, it needs `.png` extension file (body, hair).
+* moloader
+    * Load MO file. Need to unpack `mo.zip` and change location in `moFilePath` and `TextPath`.
