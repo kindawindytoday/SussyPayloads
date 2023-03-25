@@ -13,7 +13,7 @@ end
 
 local function clone()
 	local avatar = findActiveAvatar()
-	local position = avatar.gameObject.transform.position
+	local position = avatar.transform.position
 	local rotation = avatar.transform.rotation
 	local offsetDummy = CS.UnityEngine.GameObject.Find("OffsetDummy")
 	local child = offsetDummy.transform:GetChild(0)
