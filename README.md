@@ -30,3 +30,5 @@ Some scripts for some RCE framework in some gacha game
     * Create a button.You can add any listener on click.
 * clone
     * Clone current avatar with pose.
+* il2cppdump
+    * Gives you a dump.cs
